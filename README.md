@@ -4,11 +4,11 @@
 
 [Instruction on how to compile dependencies](https://web.cs.sunyit.edu//~realemj/guides/installGraphics.html)
 
+=============
 
 The dependencies are all compiled according to the instructions and installed in my DropBox folder named OpenGl.
 I use a symbolic link from the root of the project to my Dropbox folder (see .gitignore). When I configure the 
 project with CMAKE I specify this OpenGl folder path as the MASTER_DEPEND variable.
-=============
 
 This is a very basic OpenGL sample for use in SUNY Polytechnic Institute's CS 450/548 Computer Graphics course.  It has the following dependencies:
 
