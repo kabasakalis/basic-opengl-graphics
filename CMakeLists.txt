@@ -25,7 +25,9 @@ endif()
 #####################################
 
 if(WIN32)
-	set(MASTER_DEPEND "" CACHE PATH "Set this to your directory for dependencies.")	
+	set(MASTER_DEPEND "C:/Users/spiros/Dropbox/OpenGL" CACHE PATH "Set this to your directory for dependencies.")
+
+MESSAGE( STATUS "WIN32kk RAAAAAAAAAAAAAAAAAA " )
 elseif(APPLE)
 	set(MASTER_DEPEND "/usr/local")
 endif()
@@ -127,9 +129,9 @@ include_directories(include)
 include_directories(.)
 
 file(GLOB GENERAL_SOURCES
-    "*.h"    
-    "*.cpp"  
-    "*.hpp"  
+    "*.h"
+    "*.cpp"
+    "*.hpp"
 )
 
 #####################################
